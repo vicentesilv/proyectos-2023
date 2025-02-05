@@ -1,0 +1,18 @@
+h1 {
+    width: 100%;
+    text-align: center;
+}
+.pdfwork, .afterupload, .algo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.pdfwork * {
+    margin-top: 5px;
+}
+/* Esconde elementos que se mostrarán después de la carga del PDF */
+.afterupload, .another {
+    display: none;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF a texto y de texto a voz</title>
+    <!-- Incluye la biblioteca PDF.js para trabajar con archivos PDF en JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js" integrity="sha512-ml/QKfG3+Yes6TwOzQb7aCNtJF4PUyha6R3w8pSTo/VJSywl7ZreYvvtUso7fKevpsI+pYVVwnu82YO0q3V6eg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="pdfwork">   
+        <!-- Sección para cargar un PDF y (opcionalmente) especificar una contraseña -->
+        <div class="algo">
+            <span>Select PDF</span>
+            <input type="file" class="selectpdf">
+           
+            <button class="upload">Upload</button>
+        </div>
+        <!-- Sección que se muestra después de la carga del PDF, para la selección de página y la lectura del texto -->
+        <div class="afterupload">
+            <span>Select Page</span>
+            <select class="selectpage" onchange="afterProcess()"></select>
+            <button onclick="inicio()">inicio</button>
+            <button onclick="pauseSpeech()">Pause</button>
+            <button onclick="resumeSpeech()">Resume</button>
+            <button onclick="detener()">detener</button>
+            <embed  type="application/pdf" class="pdftext" style="height: 1500px;width: 1000px;" toolbar="0">
+         
+
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
