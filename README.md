@@ -14,5 +14,16 @@
         <li>posible editor a tiempo real de pdfs</li>
         <li>exposiciones automatizadas con voz para explicar posibles plantillas web</li>
     </ul>
+    <h3>estructura actual de estes proyectos</h3>
+    <p><br> 
+        |------------------------------------------------------------------------------------------------------|<br>
+        |--conversor-pdf-a-voz<br>                                                                                                                                             
+        |------app.js <br>
+        |------index.html<br>
+        |------styles.css<br>
+        |------------------------------------------------------------------------------------------------------|
+    </p>
+    <br>
+    <hr>
    </body>
 </html>
