@@ -25,5 +25,42 @@
     </p>
     <br>
     <hr>
+    <h2>cpp</h2>
+    <p>proyecto de c++ que fue ideal para el aprendizaje y practica de los arreglos,estructuras y funciones en c++ ademas de la implementacion de bucles</p>
+    <h3>ideas para implementar o de hacer en otros proyectos</h3>
+    <ul>
+        <li>implementacion de la conexion a  alguna base de datos</li>
+        <li>implementacion de una interfaz grafica mediante alguna libreria</li>
+        <li>implementacion de la creacion y edicion de archivos capaces de guardar la informacion de los estudiantes</li>
+    </ul>
+    <h3>estructura actual de estes proyectos</h3>
+    <p><br> 
+        |------------------------------------------------------------------------------------------------------|<br>
+        |--cpp<br>                                                                                                                                             
+        |------crud escuela.cpp <br>
+        |------------------------------------------------------------------------------------------------------|
+    </p>
+    <br>
+    <hr>
+    <h2>javaApplication</h2>
+    <p>proyecto de java que fue ideal para el aprendizaje,practica y comprension de temas como la programacion orientada a objetos,creacion y edicion de documentos pdf con informacion agregada por el sistema </p>
+    <h3>ideas para implementar o de hacer en otros proyectos</h3>
+    <ul>
+        <li>implementacion de la conexion a  alguna base de datos</li>
+        <li>mejora de la interfaz grafica</li>
+    </ul>
+    <h3>estructura actual de estes proyectos</h3>
+    <p><br> 
+        |------------------------------------------------------------------------------------------------------|<br>
+        |--src<br>                                                                                                                                             
+        |------usuario.java <br>
+        |------javaapplication1<br>
+        |------principal.java <br>
+        |------agregarUsuarios.java <br>
+        |------agregarUsuarios.form <br>
+        |------principal.java <br>
+        |------------------------------------------------------------------------------------------------------|
+    </p>
+    <br>
    </body>
 </html>
